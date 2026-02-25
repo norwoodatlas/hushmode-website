@@ -112,10 +112,6 @@ ul {
   border-radius: 14px;
 }
 
-.art-showcase p {
-  margin-top: 0;
-}
-
 .art-track {
   display: flex;
   gap: 0.75rem;
@@ -146,23 +142,6 @@ ul {
   border-radius: 16px;
   aspect-ratio: 1242 / 2688;
   object-fit: cover;
-}
-
-.art-index {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 1;
-  min-width: 1.55rem;
-  height: 1.55rem;
-  border-radius: 999px;
-  background: rgba(12, 74, 186, 0.82);
-  color: #fff;
-  font-size: 0.74rem;
-  font-weight: 700;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .button {
