@@ -56,7 +56,9 @@ body {
 .brand-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.35rem;
+  min-height: 96px;
 }
 
 .hero-icon {
@@ -266,6 +268,10 @@ ul {
 
   .hero-card .brand-title {
     font-size: 1.8rem;
+  }
+
+  .brand-text {
+    min-height: 80px;
   }
 
   .feature-grid {
