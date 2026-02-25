@@ -29,6 +29,8 @@ body {
   width: min(920px, 92vw);
   margin: 0 auto;
   padding: 2.5rem 0 4rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .card {
@@ -40,7 +42,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   margin: 0 0 0.8rem;
   line-height: 1.2;
 }
@@ -54,6 +57,11 @@ h2 {
   font-size: 1.3rem;
 }
 
+h3 {
+  margin-top: 1.2rem;
+  font-size: 1.03rem;
+}
+
 p,
 li {
   color: var(--muted);
@@ -61,6 +69,10 @@ li {
 
 ul {
   padding-left: 1.3rem;
+}
+
+.lead {
+  font-size: 1.05rem;
 }
 
 .tag {
@@ -81,6 +93,23 @@ ul {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1.4rem;
+}
+
+.stacked {
+  margin-top: 0;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.feature-item {
+  padding: 0.8rem;
+  background: #f8fbff;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
 }
 
 .button {
@@ -150,5 +179,9 @@ ul {
   .card {
     padding: 1.4rem;
     border-radius: 16px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
   }
 }

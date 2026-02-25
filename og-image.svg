@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hush Mode focus app social preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#CFE4FF"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="350" y1="180" x2="860" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D6EFD"/>
+      <stop offset="1" stop-color="#34A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="110" r="160" fill="#B7D6FF" fill-opacity="0.55"/>
+  <circle cx="120" cy="560" r="180" fill="#D7E9FF" fill-opacity="0.75"/>
+
+  <rect x="112" y="92" width="976" height="446" rx="34" fill="white" fill-opacity="0.96"/>
+  <rect x="156" y="138" width="230" height="42" rx="21" fill="#EAF3FF"/>
+  <text x="177" y="166" fill="#19478C" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    Focus App for iPhone
+  </text>
+
+  <text x="156" y="262" fill="#0F172A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="68" font-weight="800">
+    Hush Mode
+  </text>
+  <text x="156" y="332" fill="#334155" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="38" font-weight="600">
+    Reduce Screen Time with Gentle Friction
+  </text>
+
+  <rect x="156" y="384" width="388" height="82" rx="20" fill="url(#pill)"/>
+  <text x="186" y="437" fill="white" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">
+    Download on App Store
+  </text>
+</svg>
