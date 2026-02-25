@@ -112,6 +112,59 @@ ul {
   border-radius: 14px;
 }
 
+.art-showcase p {
+  margin-top: 0;
+}
+
+.art-track {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem 0 0.5rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.art-card {
+  flex: 0 0 156px;
+}
+
+.art-figure {
+  margin: 0;
+  position: relative;
+  border-radius: 22px;
+  padding: 8px;
+  border: 1px solid #dbeafe;
+  background: linear-gradient(180deg, #f7fbff, #eff6ff);
+  box-shadow: 0 10px 26px rgba(13, 110, 253, 0.14);
+}
+
+.art-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  aspect-ratio: 1242 / 2688;
+  object-fit: cover;
+}
+
+.art-index {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 1;
+  min-width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 999px;
+  background: rgba(12, 74, 186, 0.82);
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -183,5 +236,9 @@ ul {
 
   .feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .art-card {
+    flex-basis: 136px;
   }
 }
